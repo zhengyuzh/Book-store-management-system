@@ -1,6 +1,6 @@
 [TOC] 
 
-# 课程设计之图书商场管理系统
+# 课程设计之图书商场管理系统 （Spring+SpringMVC+Mybatis+JSP/HTML+Bootstrap）
 
 如果该该项目对您有帮助，请给个星星支持一下
 
