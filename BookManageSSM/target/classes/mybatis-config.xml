@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+    <!--添加日志-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+
+    <!--配置数据源 交给spring去做-->
+
+    <!--起别名-->
+    <typeAliases>
+        <typeAlias type="com.zheng.pojo.Books" alias="Books"/>
+        <typeAlias type="com.zheng.pojo.Customer" alias="customer"/>
+    </typeAliases>
+
+
+    <!--在mybatis核心配置文件中注册mapper文件-->
+    <mappers>
+        <mapper class="com.zheng.dao.BookMapper"/>
+        <mapper class="com.zheng.dao.CustomerMapper"/>
+    </mappers>
+
+</configuration>
+
+
